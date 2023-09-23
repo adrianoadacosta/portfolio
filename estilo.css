@@ -1,0 +1,199 @@
+/** @format */
+* {
+	background-color: black;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 10px;
+	list-style-type: none;
+	height: 100%;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+nav a:hover {
+	color: #0f0ade;
+}
+header img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 5px solid #0f0ade;
+}
+.center {
+	text-align: center;
+}
+h1 {
+	color: #0f0ade;
+}
+.lista-com-flecha {
+	list-style-type: none;
+	padding-left: 20px;
+	display: inline-block;
+}
+.lista-com-flecha li:before {
+	content: '\2192';
+	margin-right: 10px;
+}
+li {
+	list-style: none;
+}
+footer img {
+	width: 40px;
+	height: 40px;
+}
+footer {
+	display: flex;
+	justify-content: center;
+}
+footer a {
+	margin: 20px;
+	text-align: center;
+}
+footer p {
+	margin-top: 2px;
+}
+.container {
+	padding: 0px 50px;
+}
+/* Estilos gerais para dispositivos móveis e tablets primeira pagina */
+@media screen and (max-width: 768px) {
+	.container {
+		padding: 10px;
+	}
+	body {
+		margin: 10px;
+	}
+	header img {
+		display: block;
+		margin: 0 auto;
+		max-width: 50%;
+		height: auto;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size: 18px;
+	}
+	header h1,
+	header h2 {
+		text-align: center;
+	}
+	section h3 {
+		font-size: 20px;
+	}
+	section p {
+		font-size: 16px;
+	}
+	.lista-com-flecha li {
+		margin-bottom: 10px;
+	}
+	footer {
+		max-width: 100%;
+	}
+	footer img {
+		width: 25px;
+		height: 25px;
+	}
+	footer a {
+		display: inline-block;
+		margin-right: 10px;
+		margin-left: 5px;
+		text-align: center;
+		width: 30px;
+		height: 30px;
+		font-size: 10px;
+		margin: 5px;
+	}
+}
+/* Estilos gerais para pagina projetos */
+.lista-com-flecha-projetos {
+	list-style-type: none;
+	padding-left: 20px;
+	display: inline-block;
+	margin: 1rem 0;
+}
+.lista-com-flecha-projetos li {
+	margin-bottom: 20px;
+}
+.lista-com-flecha-projetos li:before {
+	content: '\2192';
+	margin-right: 10px;
+}
+#projetos .link-custom {
+	color: #fff;
+	display: inline-block;
+	margin-left: -5px;
+}
+#projetos .link-custom:hover {
+	color: #0f0ade;
+	border-color: #0078d4;
+}
+#projetos .print {
+	width: 300px;
+	height: 300px;
+	border: 5px solid #0f0ade;
+	margin: 10px;
+	display: inline;
+}
+#projetos .destaque::before {
+	content: '\2605'; /* Código Unicode para a estrela (★) */
+	color: yellow;
+	margin-right: 5px;
+}
+#projetos figure {
+	display: inline-block;
+	margin-right: 10px;
+}
+.imagem-menor {
+	border: 5px solid #0f0ade;
+}
+/* Estilos gerais para dispositivos móveis e tablets pagina projetos */
+@media screen and (max-width: 768px) {
+	#projetos .print {
+		width: 250px;
+		height: 250px;
+	}
+	#projetos figure {
+		width: 250px;
+		height: 250px;
+		margin-left: -25px;
+	}
+	.lista-responsiva {
+		display: flex;
+		flex-direction: column;
+		font-size: 1rem;
+		line-height: 1.5rem;
+		margin-bottom: 0.5rem;
+	}
+	.lista-com-flecha-projetos li.flex-centralizado {
+		display: flex;
+		justify-content: center;
+	}
+	.imagem-menor {
+		border: 5px solid #0f0ade;
+		margin: 10px;
+		display: inline;
+		width: 250px;
+		height: 250px;
+	}
+	a {
+		display: inline-block;
+		margin-top: 10px;
+	}
+}
