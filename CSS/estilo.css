@@ -46,6 +46,10 @@ i.bi-star-fill {
 .navbar-nav .nav-item {
 	margin: 0 50px;
 }
+.navbar-nav .nav-item.active {
+	margin-bottom: -5px; /* Margem negativa para indicar seleção */
+	border-bottom: 2px solid #4183d7; /* Cor de fundo ou borda para indicar seleção */
+}
 .navbar-nav .nav-item a:hover,
 .list-group-item a:hover,
 .center a:hover {
@@ -66,7 +70,7 @@ i.bi-star-fill {
 	margin-top: 75px;
 	width: 200px;
 	height: 200px;
-	border-radius: 25%;
+	border-radius: 50%;
 	border: 5px solid #4183d7;
 }
 .info-pessoal {
@@ -135,7 +139,7 @@ listas */ .list-group-item {
 .social-midia img {
 	width: 80px;
 	height: 80px;
-	border-radius: 25%;
+	border-radius: 50%;
 	border: 5px solid #4183d7;
 }
 .footer-text {
@@ -172,6 +176,16 @@ listas */ .list-group-item {
 	width: 850px;
 	height: 300px;
 }
+.video-container {
+	position: relative;
+	width: 100%; /* Define a largura máxima do contêiner */
+	max-width: 800px; /* Define a largura máxima do vídeo */
+	margin: 0 auto; /* Centraliza o contêiner na página */
+}
+.video-container video {
+	width: 100%; /* Define a largura do vídeo como 100% do contêiner pai */
+	height: auto; /* Permite que a altura seja calculada automaticamente para manter a proporção do vídeo */
+}
 
 /* Responsividade */
 @media (max-width: 481px) {
@@ -201,7 +215,7 @@ listas */ .list-group-item {
 		background-size: contain;
 	}
 	.navbar-nav .nav-item {
-		margin: 0 5px;
+		margin: 5px 5px;
 	}
 	h1,
 	h2,

@@ -19,19 +19,19 @@ document.addEventListener('DOMContentLoaded', function () {
 						id="navbarNav"
 					>
 						<ul class="navbar-nav">
-							<li class="nav-item">
+							<li class="nav-item active">
 								<a href="#sobre-mim" id="link-sobre-mim">Sobre mim</a>
 							</li>
-							<li class="nav-item">
-								<a href="index.html" id="link-home">Home</a>
+							<li class="nav-item active">
+								<a href="index.html" id="link-home">Sobre mim</a>
 							</li>
-							<li class="nav-item">
+							<li class="nav-item active">
 								<a href="projetos.html">Projetos de aulas</a>
 							</li>
-							<li class="nav-item">
-								<a href="pessoal.html">Projetos de pessoais</a>
+							<li class="nav-item active">
+								<a href="pessoal.html">Pessoais</a>
 							</li>
-							<li class="nav-item">
+							<li class="nav-item active">
 								<a href="#social-midia">Contato</a>
 							</li>
 						</ul>
