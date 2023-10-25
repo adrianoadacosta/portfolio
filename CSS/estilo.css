@@ -1,0 +1,240 @@
+/** @format */
+* {
+	background-color: black;
+	color: #fff;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body.custom-margin {
+	margin: 40px;
+	background-color: black;
+}
+.linha-centralizada {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+}
+hr {
+	width: 50%;
+	background-color: #4183d7;
+	margin-top: 25px;
+}
+/* destaque */
+i.bi-star-fill {
+	margin-right: 10px;
+	background-color: transparent;
+}
+/* nav */
+.navbar-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 150px;
+	margin-right: 100px;
+	padding: 10px;
+	width: 100%;
+}
+.navbar-nav .nav-item a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0 10px;
+}
+.navbar-nav .nav-item {
+	margin: 0 50px;
+}
+.navbar-nav .nav-item a:hover,
+.list-group-item a:hover,
+.center a:hover {
+	color: #4183d7;
+	text-decoration: underline;
+}
+.navbar-collapse {
+	justify-content: flex-end;
+}
+.list-group-horizontal > .list-group-item + .list-group-item {
+	border-left-width: 2px;
+}
+/* informações minhas */
+.center {
+	text-align: center;
+}
+.center img {
+	margin-top: 75px;
+	width: 200px;
+	height: 200px;
+	border-radius: 25%;
+	border: 5px solid #4183d7;
+}
+.info-pessoal {
+	color: #4183d7;
+}
+#sobre-mim {
+	scroll-margin-top: 70px;
+}
+/* pagina dos projetos */
+#projetos p,
+#projetos h3,
+#projetos h4 {
+	margin-top: 10px;
+}
+#projetos section {
+	scroll-margin-top: 70px;
+}
+#projetos h4 {
+	text-align: center;
+}
+.center a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0 10px;
+}
+#projetos .print {
+	width: 300px;
+	height: 300px;
+	border: 5px solid #4183d7;
+	margin: 10px;
+}
+#projetos figure {
+	display: inline-block;
+	text-align: center;
+	margin: 0 10px;
+}
+
+listas */ .list-group-item {
+	margin-bottom: 10px;
+}
+.list-group-item a {
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	padding: 0 10px;
+}
+.list-group-item {
+	background-color: #000;
+}
+/* footer */
+.social-midia {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 20px;
+	flex-wrap: wrap;
+}
+.social-midia a {
+	margin: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: inherit;
+	display: block;
+}
+.social-midia img {
+	width: 80px;
+	height: 80px;
+	border-radius: 25%;
+	border: 5px solid #4183d7;
+}
+.footer-text {
+	clear: both;
+	text-align: center;
+	margin-top: 10px;
+	color: #4183d7;
+}
+/* ferramentas */
+.tools {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.tools i {
+	font-size: 100px;
+	margin: 0 10px;
+}
+/* lista dos cursos */
+.cursos {
+	list-style-type: none;
+	padding-left: 20px;
+	display: inline-block;
+}
+.pagina-projetos p {
+	margin-top: 70px;
+}
+#imagem-menor {
+	border: 5px solid #4183d7;
+	margin: 10px;
+	display: inline;
+	width: 850px;
+	height: 300px;
+}
+
+/* Responsividade */
+@media (max-width: 481px) {
+	.center img {
+		margin-top: 10px;
+		width: 280px !important;
+		height: 280px !important;
+	}
+	#imagem-menor {
+		width: 285px !important;
+		height: 260px !important;
+		margin-left: -20px;
+	}
+	#projetos .print {
+		margin-left: -20px;
+	}
+	.navbar-nav {
+		margin-left: 0;
+	}
+	.custom-toggler {
+		position: fixed;
+		right: 0;
+		top: 5px;
+	}
+	.custom-toggler .navbar-toggler-icon {
+		background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><rect width="30" height="5" rx="3" style="fill:white;"/><rect y="10" width="30" height="5" rx="3" style="fill:white;"/><rect y="20" width="30" height="5" rx="3" style="fill:white;"/></svg>');
+		background-size: contain;
+	}
+	.navbar-nav .nav-item {
+		margin: 0 5px;
+	}
+	h1,
+	h2,
+	h3 {
+		margin-top: 15px;
+		text-align: center;
+	}
+	#sobre-mim {
+		scroll-margin-top: 130px;
+	}
+	.linha-centralizada {
+		height: 0;
+	}
+	hr {
+		margin-top: 20px;
+	}
+	.social-midia img {
+		width: 60px;
+		height: 60px;
+	}
+	#social-midia {
+		scroll-margin-top: 150px;
+	}
+	.tools {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.tools i {
+		font-size: 60px;
+		margin: 0 3px;
+		margin-bottom: 10px;
+	}
+	#projetos section {
+		scroll-margin-top: 30px;
+	}
+}

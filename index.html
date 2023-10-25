@@ -5,111 +5,119 @@
 		<meta charset="UTF-8" />
 		<meta
 			name="viewport"
-			content="width=device-width, initial-scale=1.0" />
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
 		<link
 			rel="stylesheet"
-			href="estilo.css" />
-		<title>Adriano Costa</title>
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="CSS/estilo.css"
+		/>
+		<title>Desenvolvedor Adriano Costa</title>
 	</head>
-	<body>
-		<div class="container">
-			<nav>
-				<li>
-					<ul>
-						<a href="index.html">Sobre mim</a>
+	<body class="custom-margin">
+		<!-- *** chamando o template do menu *** -->
+		<div id="menu-inicial"></div>
+		<main>
+			<div class="center">
+				<img src="img/rosto.jpg" />
+			</div>
+			<h1 class="info-pessoal">Adriano Costa</h1>
+			<h2 class="info-pessoal">Desenvolvedor de Software</h2>
+			<main>
+				<section>
+					<h3 id="sobre-mim">Sobre mim</h3>
+					<p>
+						Olá, meu nome é Adriano. Sou casado com a Márcia e pai da Larissa.
+						Desde sempre, minha paixão está na área de informática e tecnologia.
+						Além disso, sou um grande entusiasta de filmes, séries e animes.
+						Tenho um interesse especial em esportes, incluindo futebol e
+						esportes americanos como a NFL, NBA, NHL e MBL. Adoro pesquisar e
+						acompanhar as últimas novidades em tecnologia.
+					</p>
+				</section>
+				<section>
+					<h3>Formação</h3>
+					<p>
+						Comecei a faculdade de Análise e Desenvolvimento de Sistemas no
+						SENAC em 2009. Após três semestres e algumas reviravoltas na vida,
+						tive que interromper meus estudos, mas o desejo de retomar esse
+						curso que sempre me atraiu nunca desapareceu. Finalmente, em 2022,
+						consegui retornar e, com determinação, completei minha graduação na
+						Faculdade Anhanguera. Em 2024, estou iniciando minha pós-graduação
+						em Algoritmos e Lógica de Programação.
+					</p>
+				</section>
+				<section>
+					<h3>Cursos</h3>
+					<p>
+						Desde 2022, ano em que iniciei a faculdade, tenho realizado diversos
+						cursos para me ajudar a me tornar um profissional melhor e para
+						cumprir a carga horária necessária para concluir o curso. Abaixo
+						estão os cursos que completei até o momento:
+					</p>
+					<ul class="cursos">
+						<li>
+							<i class="bi bi-arrow-right"
+								>JavaScript do básico ao avançado (c/ Node.js e projetos)
+							</i>
+						</li>
+						<li>
+							<i class="bi bi-arrow-right"
+								>Curso completo de JAVA + programação orientada a objetos +
+								projetos</i
+							>
+						</li>
+						<li>
+							<i class="bi bi-arrow-right"
+								>Curso Desenvolvedor web (HTML e CSS)</i
+							>
+						</li>
+						<li>
+							<i class="bi bi-arrow-right"
+								>Algoritimos e logica em programção em C</i
+							>
+						</li>
 					</ul>
-				</li>
-				<li>
-					<ul>
-						<a href="projetos.html">Meus Projetos</a>
-					</ul>
-				</li>
-			</nav>
-			<header>
-				<div class="center">
-					<img src="img/rosto.jpg" />
-				</div>
-				<h1>Adriano Costa</h1>
-				<h2>Desenvolvedor de Software</h2>
-				<main>
-					<section>
-						<h3>Sobre mim</h3>
-						<p>
-							Olá, sou Adriano, casado com a Márcia e pai da Larissa. Desde
-							sempre, minha paixão está na área de informática e tecnologia.
-							Além disso, sou um grande entusiasta de filmes, séries e animes.
-							Outro interesse meu é assistir a esportes, incluindo futebol e
-							esportes americanos como a NFL, NBA, NHL e MBL. Também adoro
-							pesquisar e acompanhar as últimas novidades em tecnologia.
-						</p>
+				</section>
+				<section>
+					<h3>Ferramentas trabalhadas</h3>
+					<section class="tools">
+						<i class="devicon-javascript-plain colored"></i>
+						<i class="devicon-html5-plain-wordmark colored"></i>
+						<i class="devicon-css3-plain-wordmark colored"></i>
+						<i class="devicon-bootstrap-plain-wordmark colored"></i>
+						<i class="devicon-java-plain colored"></i>
+						<i class="devicon-spring-plain colored"></i>
+						<i class="devicon-nodejs-plain colored"></i>
+						<!-- <i class="devicon-angularjs-plain colored"></i> -->
 					</section>
-					<section>
-						<h3>Formação</h3>
-						<p>
-							Comecei a faculdade de Análise e Desenvolvimento de Sistemas no
-							SENAC em 2009. Após três semestres e algumas reviravoltas na vida,
-							tive que interromper meus estudos, mas o desejo de retomar esse
-							curso que sempre me atraiu nunca desapareceu. Somente em 2022,
-							finalmente consegui retornar e, com determinação, completei minha
-							graduação na Faculdade Anhanguera.
-						</p>
-					</section>
-					<section>
-						<h3>Cursos</h3>
-						<p>
-							Desde 2022, ano em que iniciei a faculdade, tenho realizado
-							diversos cursos para me ajudar a me tornar um profissional melhor
-							e para cumprir a carga horária necessária para concluir o curso.
-							Abaixo estão os cursos que completei até o momento:
-						</p>
-						<ul class="lista-com-flecha">
-							<li>
-								Curso completo de JAVA + programação orientada a objetos +
-								projetos
-							</li>
-							<li>Curso Desenvolvedor web (HTML e CSS)</li>
-							<li>Algoritimos e logica em programção em C</li>
-						</ul>
-					</section>
-				</main>
-			</header>
-			<footer>
-				<a
-					href="https://github.com/adrianoadacosta"
-					target="_blank"
-					rel="noopener noreferrer">
-					<img src="img/icons8-github.svg" />
-					<p>Github</p>
-				</a>
-				<a
-					href="https://linkedin.com/in/adriano-costa-987999119"
-					target="_blank"
-					rel="noopener noreferrer">
-					<img src="img/icons8-linkedin.svg" />
-					<p>Linkedin</p>
-				</a>
-				<a
-					href="https://wa.me/5551986248474?text=Ol%C3%A1+meu+nome+%C3%A9+Adriano+e+irei+responder+a+mensagem+assim+que+poss%C3%ADvel"
-					target="_blank"
-					rel="noopener noreferrer">
-					<img src="img/icons8-whatsapp.svg" />
-					<p>Whatsapp</p>
-				</a>
-				<a
-					href="https://t.me/Adrianoadacosta"
-					target="_blank"
-					rel="noopener noreferrer">
-					<img src="img/icons8-telegram-logo.svg" />
-					<p>Telegram</p>
-				</a>
-				<a
-					href="https://discord.gg/CtYvu4YuVU"
-					target="_blank"
-					rel="noopener noreferrer">
-					<img src="img/icons8-logo-discord.svg" />
-					<p>Discord</p>
-				</a>
-			</footer>
-		</div>
+				</section>
+			</main>
+
+			<div class="linha-centralizada"><hr /></div>
+		</main>
+		<!-- *** chamando o template do footer *** -->
+		<div id="footer-contatos"></div>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"
+		></script>
+		<script src="templates.js"></script>
+		<script src="script.js"></script>
 	</body>
 </html>
