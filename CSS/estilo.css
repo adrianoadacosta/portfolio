@@ -1,6 +1,6 @@
 /** @format */
 * {
-	background-color: black;
+	background-color: #2d3436;
 	color: #fff;
 	font-family: Helvetica, sans-serif;
 	font-size: 16px;
@@ -10,7 +10,7 @@
 }
 body.custom-margin {
 	margin: 40px;
-	background-color: black;
+	background-color: #2d3436;
 }
 .linha-centralizada {
 	display: flex;
@@ -112,13 +112,13 @@ listas */ .list-group-item {
 	margin-bottom: 10px;
 }
 .list-group-item a {
-	background-color: #000;
+	background-color: #2d3436;
 	color: #fff;
 	text-decoration: none;
 	padding: 0 10px;
 }
 .list-group-item {
-	background-color: #000;
+	background-color: #2d3436;
 }
 /* footer */
 .social-midia {
