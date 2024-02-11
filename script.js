@@ -32,6 +32,20 @@ document.addEventListener('DOMContentLoaded', function () {
 		});
 	}
 
+	window.addEventListener('scroll', function () {
+		var backToTopButton = document.getElementById('back-to-top');
+		if (window.pageYOffset > 300) {
+			// Altere este valor conforme necessário
+			backToTopButton.style.display = 'block';
+		} else {
+			backToTopButton.style.display = 'none';
+		}
+	});
+
+	document.getElementById('back-to-top').addEventListener('click', function () {
+		window.scrollTo({ top: 0, behavior: 'smooth' }); // Para fazer a rolagem suave
+	});
+
 	// Adiciona a classe 'active' ao carregar a página
 	window.onload = setActiveMenuItem;
 
